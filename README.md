@@ -36,17 +36,19 @@ MySpringBank/
 ## 🧑‍💻 How to Run the Project in Eclipse
 1. **Clone or download** this project:
 https://github.com/Vinayak6019/MySpringBank.git
-2. **Open Eclipse IDE**
-3. Go to:  
+
+3. **Open Eclipse IDE**
+4. Go to:  
 `File → Import → Maven → Existing Maven Projects`
-4. Select the folder where you saved `MySpringBank` and click **Finish**
-5. Configure MySQL in `src/main/resources/application.properties`:
+5. Select the folder where you saved `MySpringBank` and click **Finish**
+   
+7. Configure MySQL in `src/main/resources/application.properties`:
 properties 
 `spring.datasource.url=jdbc:mysql://localhost:3306/mybank`
 `spring.datasource.username=root`
 `spring.datasource.password=yourpassword`
-6. Right-click on the project → Run As → Spring Boot App
-7. Open browser and visit:
+8. Right-click on the project → Run As → Spring Boot App
+9. Open browser and visit:
    `http://localhost:8080`
 
 Author
