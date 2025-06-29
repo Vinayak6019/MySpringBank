@@ -21,17 +21,17 @@
 ## 🗂️ Project Structure
 MySpringBank/
 ├── src/
-│ ├── main/
-│ │ ├── java/com/ty/MySpringBank/
-│ │ │ ├── controller/
-│ │ │ ├── model/
-│ │ │ ├── repository/
-│ │ │ └── service/
-│ │ └── resources/
-│ │ ├── templates/ (HTML pages)
-│ │ └── static/ (CSS files)
-├── pom.xml
-└── application.properties
+│   ├── main/
+│   │   ├── java/com/ty/MySpringBank/
+│   │   │   ├── controller/       # Contains controller classes
+│   │   │   ├── model/            # Contains model/entity classes
+│   │   │   ├── repository/       # Contains data repository interfaces
+│   │   │   └── service/          # Contains service classes
+│   │   └── resources/
+│   │       ├── templates/        # HTML files using Thymeleaf
+│   │       └── static/           # CSS, JavaScript, images
+├── pom.xml                      # Maven project file
+└── application.properties       # Spring Boot configuration
 
 ## 🧑‍💻 How to Run the Project in Eclipse
 1. **Clone or download** this project:
